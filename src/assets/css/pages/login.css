@@ -1,0 +1,16 @@
+body {
+    background: #0C0C0C;
+}
+
+.login {
+    border: 1px solid red;
+    background: #0C0C0C;
+    height: 100vh;
+}
+
+.logo, .user {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+}
