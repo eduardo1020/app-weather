@@ -1,11 +1,11 @@
 body {
     background: #0C0C0C;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .login {
-    border: 1px solid red;
     background: #0C0C0C;
-    height: 100vh;
+    height: 90vh;
 }
 
 .logo, .user {
@@ -13,4 +13,37 @@ body {
     justify-content: center;
 
     margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+    padding: 30px;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 100px;
+    height: 35px;
+    background-color: #fbfcff;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.link {
+    color: #fbfcff;
+    padding: 10px;
 }

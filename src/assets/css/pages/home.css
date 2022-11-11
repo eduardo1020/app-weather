@@ -1,0 +1,30 @@
+body {
+    color: #fbfcff;
+}
+
+#logo {
+    width: 150px;
+    margin-left: 50px;
+} 
+
+#user {
+    width: 50px;
+    margin-right: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.pesquisar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fbfcff;
+}
+
+.buttonHome {
+    margin-left: 25px;
+}

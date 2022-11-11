@@ -1,10 +1,8 @@
-import { Login } from "./pages/Login";
+import { Routes } from './services/routes/index';
 
 function App() {
   return (
-    <div className="App">
-      <Login />
-    </div>
+    <Routes />
   );
 }
 
